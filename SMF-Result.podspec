@@ -20,4 +20,6 @@ Pod::Spec.new do |s|
   s.tvos.vendored_frameworks = 'Releases/tvOS/Result.framework'
   s.watchos.vendored_frameworks = 'Releases/watchOS/Result.framework'
 
+  s.static_framework = true
+
 end
